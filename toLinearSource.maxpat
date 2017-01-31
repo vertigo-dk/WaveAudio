@@ -71,7 +71,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 258.0, 233.0, 22.0 ],
 					"style" : "",
-					"text" : "source 1 xy 37. -6.307472"
+					"text" : "source 3 xy 29.16 -2.481606"
 				}
 
 			}
@@ -94,10 +94,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 100.0, 152.0, 31.0, 22.0 ],
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 100.0, 152.0, 35.0, 22.0 ],
 					"style" : "",
-					"text" : "- 39"
+					"text" : "- 39."
 				}
 
 			}
