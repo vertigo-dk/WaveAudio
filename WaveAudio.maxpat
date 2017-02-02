@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 748.0, 79.0, 1778.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 1778.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,7 +101,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 437.0, 362.0, 188.0, 22.0 ],
 									"style" : "",
-									"text" : "-2. 1.732"
+									"text" : "2.142708 4.732"
 								}
 
 							}
@@ -178,7 +178,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 380.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "/Bead/6 59.5 4.732"
+									"text" : "/Bead/2 4.950475 4.732"
 								}
 
 							}
@@ -4322,26 +4322,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-59::obj-184" : [ "gain[16]", "gain", 0 ],
-			"obj-66::obj-184" : [ "gain[9]", "gain", 0 ],
-			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-1::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-13::obj-184" : [ "gain[4]", "gain", 0 ],
-			"obj-1::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-16::obj-184" : [ "gain[1]", "gain", 0 ],
-			"obj-15::obj-184" : [ "gain", "gain", 0 ],
-			"obj-61::obj-184" : [ "gain[15]", "gain", 0 ],
-			"obj-12::obj-184" : [ "gain[6]", "gain", 0 ],
-			"obj-64::obj-184" : [ "gain[11]", "gain", 0 ],
-			"obj-65::obj-184" : [ "gain[8]", "gain", 0 ],
-			"obj-18::obj-184" : [ "gain[3]", "gain", 0 ],
+			"obj-18::obj-184" : [ "gain[17]", "gain", 0 ],
 			"obj-1::obj-606" : [ "live.text[2]", "live.text", 0 ],
 			"obj-1::obj-607" : [ "live.button[1]", "live.button", 0 ],
+			"obj-59::obj-184" : [ "gain[16]", "gain", 0 ],
+			"obj-65::obj-184" : [ "gain[8]", "gain", 0 ],
+			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
+			"obj-14::obj-184" : [ "gain[18]", "gain", 0 ],
+			"obj-61::obj-184" : [ "gain[15]", "gain", 0 ],
+			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-1::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-16::obj-184" : [ "gain[12]", "gain", 0 ],
+			"obj-12::obj-184" : [ "gain[19]", "gain", 0 ],
+			"obj-15::obj-184" : [ "gain", "gain", 0 ],
+			"obj-64::obj-184" : [ "gain[11]", "gain", 0 ],
+			"obj-13::obj-184" : [ "gain[14]", "gain", 0 ],
+			"obj-11::obj-184" : [ "gain[20]", "gain", 0 ],
 			"obj-62::obj-184" : [ "gain[10]", "gain", 0 ],
-			"obj-11::obj-184" : [ "gain[7]", "gain", 0 ],
-			"obj-14::obj-184" : [ "gain[5]", "gain", 0 ],
-			"obj-17::obj-184" : [ "gain[2]", "gain", 0 ]
+			"obj-17::obj-184" : [ "gain[13]", "gain", 0 ],
+			"obj-66::obj-184" : [ "gain[9]", "gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4358,19 +4358,19 @@
 			}
 , 			{
 				"name" : "toLinearSource.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/APPS/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayer.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/APPS/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.NNDistFilter~.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/APPS/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4382,14 +4382,20 @@
 			}
 , 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/APPS/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayerRot.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/APPS/WaveAudio",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Jonas_Test",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/Audio/Presets",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
