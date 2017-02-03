@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 364.0, 312.0, 1778.0, 933.0 ],
+		"rect" : [ 73.0, 79.0, 1730.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -25,7 +25,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 4,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -44,7 +44,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "float" ],
 					"patching_rect" : [ 395.0, 357.0, 73.0, 22.0 ],
-					"presentation_rect" : [ 1150.0, 192.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "unpack 0 1."
 				}
@@ -52,7 +51,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 7 ],
+					"args" : [ 9 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -67,7 +66,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 395.0, 618.0, 152.0, 146.0 ],
-					"presentation_rect" : [ 1150.0, 289.0, 0.0, 0.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -106,7 +104,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "float" ],
 					"patching_rect" : [ 201.0, 357.0, 73.0, 22.0 ],
-					"presentation_rect" : [ 972.0, 124.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "unpack 0 1."
 				}
@@ -114,7 +111,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 7 ],
+					"args" : [ 8 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -129,7 +126,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 201.0, 618.0, 152.0, 146.0 ],
-					"presentation_rect" : [ 972.0, 221.0, 0.0, 0.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -386,7 +382,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 380.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "/Bead/4 48.818428 4.732"
+									"text" : "/Bead/2 -0.438094 0.732"
 								}
 
 							}
@@ -896,7 +892,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1848.0, 101.0, 87.0, 22.0 ],
+					"patching_rect" : [ 1847.857178, 98.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1005,7 +1001,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1710.0, 108.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1710.0, 98.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "r fileNames"
 				}
@@ -1018,13 +1014,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1710.0, 141.0, 58.0, 22.0 ],
+					"patching_rect" : [ 1710.0, 141.0, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll beds",
+					"text" : "coll",
 					"varname" : "u336001022"
 				}
 
@@ -1509,7 +1505,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "speakers" ],
+					"outlettype" : [ "source" ],
 					"patching_rect" : [ 659.0, 572.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "thru"
@@ -3486,6 +3482,7 @@
 					"destination" : [ "obj-83", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1740.5, 173.0, 1838.928589, 173.0, 1838.928589, 47.0, 1857.357178, 47.0 ],
 					"source" : [ "obj-24", 2 ]
 				}
 
@@ -4515,6 +4512,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1868.5, 165.0, 1808.0, 165.0, 1808.0, 130.0, 1719.5, 130.0 ],
 					"source" : [ "obj-74", 1 ]
 				}
 
@@ -4524,6 +4522,7 @@
 					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1857.5, 180.5, 1719.5, 180.5 ],
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -4554,6 +4553,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 1788.5, 556.0, 1788.5, 556.0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1857.357178, 92.0, 1818.928589, 92.0, 1818.928589, 47.0, 1590.5, 47.0 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -4686,32 +4695,32 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-59::obj-184" : [ "gain[24]", "gain", 0 ],
-			"obj-18::obj-184" : [ "gain[9]", "gain", 0 ],
+			"obj-13::obj-184" : [ "gain[4]", "gain", 0 ],
 			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
-			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-101::obj-80" : [ "activateGain[2]", "activateGain", 0 ],
-			"obj-1::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-66::obj-184" : [ "gain[4]", "gain", 0 ],
-			"obj-1::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-15::obj-184" : [ "gain", "gain", 0 ],
-			"obj-101::obj-184" : [ "gain[25]", "gain", 0 ],
-			"obj-86::obj-184" : [ "gain[15]", "gain", 0 ],
-			"obj-64::obj-184" : [ "gain[6]", "gain", 0 ],
 			"obj-86::obj-80" : [ "activateGain[1]", "activateGain", 0 ],
-			"obj-61::obj-184" : [ "gain[21]", "gain", 0 ],
-			"obj-43::obj-80" : [ "activateGain", "activateGain", 0 ],
-			"obj-11::obj-184" : [ "gain[13]", "gain", 0 ],
-			"obj-14::obj-184" : [ "gain[11]", "gain", 0 ],
-			"obj-17::obj-184" : [ "gain[8]", "gain", 0 ],
-			"obj-65::obj-184" : [ "gain[3]", "gain", 0 ],
+			"obj-65::obj-184" : [ "gain[23]", "gain", 0 ],
+			"obj-18::obj-184" : [ "gain[3]", "gain", 0 ],
+			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-1::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-66::obj-184" : [ "gain[15]", "gain", 0 ],
+			"obj-14::obj-184" : [ "gain[19]", "gain", 0 ],
+			"obj-17::obj-184" : [ "gain[2]", "gain", 0 ],
+			"obj-11::obj-184" : [ "gain[21]", "gain", 0 ],
+			"obj-64::obj-184" : [ "gain[13]", "gain", 0 ],
+			"obj-86::obj-184" : [ "gain[18]", "gain", 0 ],
+			"obj-62::obj-184" : [ "gain[16]", "gain", 0 ],
+			"obj-16::obj-184" : [ "gain[1]", "gain", 0 ],
+			"obj-101::obj-184" : [ "gain[14]", "gain", 0 ],
+			"obj-101::obj-80" : [ "activateGain[2]", "activateGain", 0 ],
+			"obj-43::obj-184" : [ "gain[17]", "gain", 0 ],
+			"obj-15::obj-184" : [ "gain", "gain", 0 ],
 			"obj-1::obj-606" : [ "live.text[2]", "live.text", 0 ],
 			"obj-1::obj-607" : [ "live.button[1]", "live.button", 0 ],
-			"obj-12::obj-184" : [ "gain[12]", "gain", 0 ],
-			"obj-13::obj-184" : [ "gain[10]", "gain", 0 ],
-			"obj-16::obj-184" : [ "gain[7]", "gain", 0 ],
-			"obj-62::obj-184" : [ "gain[5]", "gain", 0 ],
-			"obj-43::obj-184" : [ "gain[14]", "gain", 0 ]
+			"obj-43::obj-80" : [ "activateGain", "activateGain", 0 ],
+			"obj-12::obj-184" : [ "gain[20]", "gain", 0 ],
+			"obj-59::obj-184" : [ "gain[27]", "gain", 0 ],
+			"obj-61::obj-184" : [ "gain[24]", "gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4728,19 +4737,19 @@
 			}
 , 			{
 				"name" : "toLinearSource.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayer.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.NNDistFilter~.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4752,19 +4761,25 @@
 			}
 , 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayerRot.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "WLWPreset1_new",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/Audio/Presets",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "simplePlayerRipples.maxpat",
-				"bootpath" : "~/Desktop/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
