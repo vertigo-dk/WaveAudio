@@ -1121,7 +1121,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Dropbox/Ofelia - Site config/APPS/WaveAudio",
+				"bootpath" : "~/Desktop/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
