@@ -43,8 +43,13 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
+<<<<<<< HEAD
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 67.0, 99.0, 30.0, 30.0 ],
+=======
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 150.0, 103.0, 30.0, 30.0 ],
+>>>>>>> newDev
 					"style" : ""
 				}
 
@@ -96,7 +101,11 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 285.0, 95.0, 30.0, 30.0 ],
+=======
+					"patching_rect" : [ 596.0, 99.0, 30.0, 30.0 ],
+>>>>>>> newDev
 					"style" : ""
 				}
 
@@ -133,7 +142,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 67.0, 375.5, 72.0, 22.0 ],
+=======
+					"patching_rect" : [ 63.0, 372.5, 72.0, 22.0 ],
+>>>>>>> newDev
 					"style" : "",
 					"text" : "distance $1"
 				}
@@ -212,7 +225,11 @@
 					"destination" : [ "obj-86", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+<<<<<<< HEAD
 					"midpoints" : [ 23.5, 447.25, 72.5, 447.25 ],
+=======
+					"midpoints" : [ 23.5, 453.25, 72.5, 453.25 ],
+>>>>>>> newDev
 					"source" : [ "obj-6", 0 ]
 				}
 
