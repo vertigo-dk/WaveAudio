@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 14,
+					"numoutlets" : 12,
+					"outlettype" : [ "signal", "signal", "int", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 140.0, 867.0, 155.5, 22.0 ],
+					"style" : "",
+					"text" : "grainPlayer",
+					"varname" : "grainPlayer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -180,7 +194,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 20.0, 148.0, 22.0 ],
 					"style" : "",
-					"text" : "Current Time: 11:41:46"
+					"text" : "Current Time: 12:55:6"
 				}
 
 			}
@@ -197,7 +211,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 20.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "114146"
+					"text" : "125506"
 				}
 
 			}
@@ -1968,7 +1982,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 380.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "/Bead/8 18.92547 3.732"
+									"text" : "/Bead/6 22.6 1.732"
 								}
 
 							}
@@ -6507,6 +6521,30 @@
 , 			{
 				"name" : "simplePlayerRipples.maxpat",
 				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainPlayer.maxpat",
+				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rgrain.maxpat",
+				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rchoose.maxpat",
+				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
