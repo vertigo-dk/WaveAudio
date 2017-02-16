@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1006.0, 79.0, 751.0, 665.0 ],
+		"rect" : [ 895.0, 79.0, 751.0, 665.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4.0, 289.0, 69.0, 22.0 ],
+					"style" : "",
+					"text" : "r sfplayLeft"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"channels" : 1,
 					"id" : "obj-29",
@@ -580,6 +593,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -652,8 +674,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-184" : [ "gain[23]", "gain", 0 ],
-			"obj-29" : [ "VCA", "VAC", 0 ]
+			"obj-29" : [ "VCA", "VAC", 0 ],
+			"obj-184" : [ "gain[23]", "gain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

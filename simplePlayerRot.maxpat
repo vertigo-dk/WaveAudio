@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 906.0, 79.0, 830.0, 712.0 ],
+		"rect" : [ 816.0, 79.0, 830.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 255.0, 69.0, 22.0 ],
+					"style" : "",
+					"text" : "r sfplayLeft"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "message",
@@ -347,7 +360,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 79.0, 295.0, 123.0, 22.0 ],
+					"patching_rect" : [ 79.0, 295.0, 144.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -361,7 +374,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "sfplay~ 1 @loop 1 @"
+					"text" : "sfplay~ 1 60000 @loop 1"
 				}
 
 			}
@@ -1221,6 +1234,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
