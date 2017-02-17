@@ -360,7 +360,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 79.0, 295.0, 144.0, 22.0 ],
+					"patching_rect" : [ 79.0, 295.0, 107.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -374,7 +374,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "sfplay~ 1 60000 @loop 1"
+					"text" : "sfplay~ 1 @loop 1"
 				}
 
 			}
@@ -1470,7 +1470,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}

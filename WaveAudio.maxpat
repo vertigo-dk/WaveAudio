@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -85.0, 79.0, 1610.0, 832.0 ],
+		"rect" : [ 36.0, 79.0, 1204.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,14 +39,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-126",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1731.0, 209.0, 50.0, 49.0 ],
+					"patching_rect" : [ 1731.0, 209.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "seek 1130396"
+					"text" : "seek 356000"
 				}
 
 			}
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1743.0, 87.0, 53.0, 22.0 ],
-					"presentation_rect" : [ 1743.0, 90.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "seek $1"
 				}
@@ -615,7 +614,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 20.0, 148.0, 22.0 ],
 					"style" : "",
-					"text" : "Current Time: 21:21:13"
+					"text" : "Current Time: 22:54:51"
 				}
 
 			}
@@ -632,7 +631,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 20.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "212113"
+					"text" : "225451"
 				}
 
 			}
@@ -1984,7 +1983,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 272.0, 540.0, 189.0, 22.0 ],
 									"style" : "",
-									"text" : "51.527023 3.732 0."
+									"text" : "39.304054 0.732 0.038916"
 								}
 
 							}
@@ -2151,7 +2150,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 830.214294, 484.0, 50.0, 35.0 ],
+									"patching_rect" : [ 830.214294, 484.0, 50.0, 22.0 ],
 									"style" : "",
 									"text" : "0."
 								}
@@ -2164,7 +2163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 768.214294, 484.0, 58.0, 35.0 ],
+									"patching_rect" : [ 768.214294, 484.0, 58.0, 22.0 ],
 									"style" : "",
 									"text" : "0."
 								}
@@ -2177,9 +2176,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 710.214294, 484.0, 58.0, 35.0 ],
+									"patching_rect" : [ 710.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.198596"
 								}
 
 							}
@@ -2192,7 +2191,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 652.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.407277"
 								}
 
 							}
@@ -2203,9 +2202,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 591.214294, 484.0, 52.0, 35.0 ],
+									"patching_rect" : [ 591.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.031242"
 								}
 
 							}
@@ -2218,7 +2217,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 534.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.038916"
 								}
 
 							}
@@ -2244,7 +2243,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 461.607117, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.568812"
 								}
 
 							}
@@ -2334,7 +2333,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 467.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "/Bead/5 67.414284 4.732 0."
+									"text" : "/Bead/8 79.44 4.732 0."
 								}
 
 							}
@@ -3541,7 +3540,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1681.0, 656.0, 142.0, 225.0 ],
+					"patching_rect" : [ 1681.0, 656.0, 140.0, 225.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -7000,6 +6999,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-126", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7335,32 +7343,32 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-184" : [ "gain[4]", "gain", 0 ],
-			"obj-61::obj-184" : [ "gain[9]", "gain", 0 ],
-			"obj-43::obj-80" : [ "activateGain", "activateGain", 0 ],
-			"obj-59::obj-184" : [ "gain[10]", "gain", 0 ],
 			"obj-1::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-135" : [ "isDay", "isDay", 0 ],
-			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
-			"obj-11::obj-184" : [ "gain[27]", "gain", 0 ],
+			"obj-43::obj-80" : [ "activateGain", "activateGain", 0 ],
 			"obj-15::obj-184" : [ "gain", "gain", 0 ],
-			"obj-18::obj-184" : [ "gain[3]", "gain", 0 ],
-			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-66::obj-184" : [ "gain[6]", "gain", 0 ],
-			"obj-43::obj-184" : [ "gain[26]", "gain", 0 ],
+			"obj-18::obj-184" : [ "gain[13]", "gain", 0 ],
 			"obj-1::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-64::obj-184" : [ "gain[8]", "gain", 0 ],
-			"obj-62::obj-184" : [ "gain[7]", "gain", 0 ],
-			"obj-14::obj-184" : [ "gain[15]", "gain", 0 ],
-			"obj-16::obj-184" : [ "gain[1]", "gain", 0 ],
-			"obj-79" : [ "live.dial[2]", "gain", 0 ],
-			"obj-65::obj-184" : [ "gain[5]", "gain", 0 ],
-			"obj-133::obj-184" : [ "gain[23]", "gain", 0 ],
+			"obj-61::obj-184" : [ "gain[9]", "gain", 0 ],
+			"obj-59::obj-184" : [ "gain[10]", "gain", 0 ],
+			"obj-66::obj-184" : [ "gain[6]", "gain", 0 ],
+			"obj-17::obj-184" : [ "gain[12]", "gain", 0 ],
 			"obj-1::obj-606" : [ "live.text[2]", "live.text", 0 ],
+			"obj-79" : [ "live.dial[2]", "gain", 0 ],
+			"obj-43::obj-184" : [ "gain[26]", "gain", 0 ],
+			"obj-16::obj-184" : [ "gain[11]", "gain", 0 ],
+			"obj-65::obj-184" : [ "gain[5]", "gain", 0 ],
 			"obj-12::obj-184" : [ "gain[16]", "gain", 0 ],
 			"obj-1::obj-607" : [ "live.button[1]", "live.button", 0 ],
-			"obj-17::obj-184" : [ "gain[2]", "gain", 0 ],
-			"obj-91" : [ "isDvale", "isDvale", 0 ]
+			"obj-135" : [ "isDay", "isDay", 0 ],
+			"obj-133::obj-184" : [ "gain[23]", "gain", 0 ],
+			"obj-11::obj-184" : [ "gain[17]", "gain", 0 ],
+			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
+			"obj-64::obj-184" : [ "gain[8]", "gain", 0 ],
+			"obj-91" : [ "isDvale", "isDvale", 0 ],
+			"obj-62::obj-184" : [ "gain[7]", "gain", 0 ],
+			"obj-14::obj-184" : [ "gain[15]", "gain", 0 ],
+			"obj-13::obj-184" : [ "gain[14]", "gain", 0 ],
+			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -7377,19 +7385,19 @@
 			}
 , 			{
 				"name" : "toLinearSource.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayer.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.NNDistFilter~.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7401,25 +7409,31 @@
 			}
 , 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayerRot.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "RuneRask_FINAL PRESET",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/Audio/Presets",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "simplePlayerRipples.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MTC_receiver.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7498,8 +7512,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
