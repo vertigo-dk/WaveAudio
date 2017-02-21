@@ -51,19 +51,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 257.0, 69.0, 22.0 ],
-					"style" : "",
-					"text" : "r sfplayLeft"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -583,15 +570,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-177", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -826,8 +804,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-184" : [ "gain", "gain", 0 ],
-			"obj-80" : [ "activateGain", "activateGain", 0 ]
+			"obj-80" : [ "activateGain", "activateGain", 0 ],
+			"obj-184" : [ "gain", "gain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
