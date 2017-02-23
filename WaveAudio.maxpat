@@ -38,6 +38,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-114",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 45.0, 1064.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-122",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -80,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 57.0, 1141.666748, 69.0, 22.0 ],
+					"patching_rect" : [ 51.0, 1141.5, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "delay 1000"
 				}
@@ -347,7 +359,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 57.0, 1169.0, 57.0, 22.0 ],
+					"patching_rect" : [ 34.0, 1101.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -609,7 +621,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 34.0, 1101.666748, 57.0, 22.0 ],
+					"patching_rect" : [ 51.0, 1169.5, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -643,7 +655,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.0, 1105.0, 169.0, 20.0 ],
 					"style" : "",
-					"text" : "1 turn on power"
+					"text" : "1 turn off power"
 				}
 
 			}
@@ -655,7 +667,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.0, 1169.0, 162.0, 20.0 ],
 					"style" : "",
-					"text" : "1 sec later turn off all power"
+					"text" : "1 sec later turn on all power"
 				}
 
 			}
@@ -1322,7 +1334,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 20.0, 148.0, 22.0 ],
 					"style" : "",
-					"text" : "Current Time: 10:27:16"
+					"text" : "Current Time: 10:34:35"
 				}
 
 			}
@@ -1339,7 +1351,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 20.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "102716"
+					"text" : "103435"
 				}
 
 			}
@@ -2652,7 +2664,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 272.0, 540.0, 189.0, 22.0 ],
 									"style" : "",
-									"text" : "66.28125 3.732 0."
+									"text" : "23.53846 1.732 0.095869"
 								}
 
 							}
@@ -2847,7 +2859,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 710.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.462238"
 								}
 
 							}
@@ -2860,7 +2872,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 652.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.422227"
 								}
 
 							}
@@ -2873,7 +2885,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 591.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.128846"
 								}
 
 							}
@@ -2886,7 +2898,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 534.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.095869"
 								}
 
 							}
@@ -2912,7 +2924,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 461.607117, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0."
+									"text" : "0.54091"
 								}
 
 							}
@@ -3002,7 +3014,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 467.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "/Bead/4 4.636364 2.732 0."
+									"text" : "/Bead/8 21.147537 3.732 0."
 								}
 
 							}
@@ -5492,6 +5504,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-140", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-114", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5501,7 +5522,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-139", 0 ],
+					"destination" : [ "obj-140", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-117", 0 ]
@@ -5513,7 +5534,7 @@
 					"destination" : [ "obj-90", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 23.5, 1130.333374, 66.5, 1130.333374 ],
+					"midpoints" : [ 23.5, 1130.333374, 60.5, 1130.333374 ],
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -8059,7 +8080,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-140", 0 ],
+					"destination" : [ "obj-139", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-90", 0 ]
@@ -8140,35 +8161,35 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-135" : [ "isDay", "isDay", 0 ],
 			"obj-18::obj-184" : [ "gain[3]", "gain", 0 ],
 			"obj-68::obj-80" : [ "activateGain[1]", "activateGain", 0 ],
-			"obj-62::obj-184" : [ "gain[21]", "gain", 0 ],
-			"obj-12::obj-184" : [ "gain[6]", "gain", 0 ],
-			"obj-65::obj-184" : [ "gain[23]", "gain", 0 ],
-			"obj-75::obj-184" : [ "gain[18]", "gain", 0 ],
-			"obj-79" : [ "live.dial[2]", "gain", 0 ],
-			"obj-15::obj-184" : [ "gain", "gain", 0 ],
 			"obj-1::obj-50" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-1::obj-21" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-35" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-59::obj-184" : [ "gain[26]", "gain", 0 ],
+			"obj-12::obj-184" : [ "gain[6]", "gain", 0 ],
+			"obj-75::obj-80" : [ "activateGain", "activateGain", 0 ],
 			"obj-1::obj-606" : [ "live.text[2]", "live.text", 0 ],
-			"obj-66::obj-184" : [ "gain[24]", "gain", 0 ],
+			"obj-75::obj-184" : [ "gain[18]", "gain", 0 ],
 			"obj-1::obj-607" : [ "live.button[1]", "live.button", 0 ],
+			"obj-66::obj-184" : [ "gain[24]", "gain", 0 ],
+			"obj-61::obj-184" : [ "gain[22]", "gain", 0 ],
 			"obj-14::obj-184" : [ "gain[5]", "gain", 0 ],
+			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
 			"obj-17::obj-184" : [ "gain[2]", "gain", 0 ],
 			"obj-43::obj-80" : [ "activateGain[2]", "activateGain", 0 ],
-			"obj-91" : [ "isDvale", "isDvale", 0 ],
-			"obj-1::obj-55" : [ "live.text[3]", "live.text", 0 ],
-			"obj-59::obj-184" : [ "gain[26]", "gain", 0 ],
 			"obj-11::obj-184" : [ "gain[7]", "gain", 0 ],
-			"obj-13::obj-184" : [ "gain[4]", "gain", 0 ],
+			"obj-64::obj-184" : [ "gain[25]", "gain", 0 ],
 			"obj-43::obj-184" : [ "gain[28]", "gain", 0 ],
-			"obj-75::obj-80" : [ "activateGain", "activateGain", 0 ],
-			"obj-135" : [ "isDay", "isDay", 0 ],
-			"obj-61::obj-184" : [ "gain[22]", "gain", 0 ],
+			"obj-91" : [ "isDvale", "isDvale", 0 ],
+			"obj-65::obj-184" : [ "gain[23]", "gain", 0 ],
+			"obj-62::obj-184" : [ "gain[21]", "gain", 0 ],
+			"obj-13::obj-184" : [ "gain[4]", "gain", 0 ],
+			"obj-15::obj-184" : [ "gain", "gain", 0 ],
 			"obj-16::obj-184" : [ "gain[1]", "gain", 0 ],
-			"obj-68::obj-184" : [ "gain[27]", "gain", 0 ],
-			"obj-64::obj-184" : [ "gain[25]", "gain", 0 ]
+			"obj-79" : [ "live.dial[2]", "gain", 0 ],
+			"obj-68::obj-184" : [ "gain[27]", "gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -8185,19 +8206,19 @@
 			}
 , 			{
 				"name" : "toLinearSource.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayer.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.NNDistFilter~.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8209,25 +8230,31 @@
 			}
 , 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayerRot.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "RuneRask_FINAL PRESET",
+				"bootpath" : "~/Dropbox/Ofelia - Site config/Audio/Presets",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "simplePlayerRipples.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MTC_receiver.maxpat",
-				"bootpath" : "~/Documents/Programmieren/OF/of_v0.9.8_osx_release/apps/Wave/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
