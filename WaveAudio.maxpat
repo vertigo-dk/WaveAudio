@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-125",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 121.0, 426.0, 50.0, 35.0 ],
+					"style" : "",
+					"text" : "-1.981128"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-121",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -940,7 +954,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 439.0, 102.0, 22.0 ],
+					"patching_rect" : [ 85.0, 455.0, 102.0, 22.0 ],
 					"style" : "",
 					"text" : "toLinearSource 7"
 				}
@@ -968,7 +982,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1824.0, 171.0, 87.0, 22.0 ],
 					"style" : "",
-					"text" : "seek 60000"
+					"text" : "seek 1020000"
 				}
 
 			}
@@ -1503,7 +1517,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 20.0, 148.0, 22.0 ],
 					"style" : "",
-					"text" : "Current Time: 19:57:32"
+					"text" : "Current Time: 21:14:1"
 				}
 
 			}
@@ -1520,7 +1534,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 20.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "195732"
+					"text" : "211401"
 				}
 
 			}
@@ -2833,7 +2847,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 272.0, 540.0, 189.0, 22.0 ],
 									"style" : "",
-									"text" : "10.618111 4.732 0.00909"
+									"text" : "24.437012 4.732 0.003984"
 								}
 
 							}
@@ -2989,7 +3003,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 897.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.525752"
+									"text" : "0.228229"
 								}
 
 							}
@@ -3003,7 +3017,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 830.214294, 484.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "0.214545"
+									"text" : "0.208544"
 								}
 
 							}
@@ -3017,7 +3031,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 768.214294, 484.0, 58.0, 22.0 ],
 									"style" : "",
-									"text" : "0.367276"
+									"text" : "0.573868"
 								}
 
 							}
@@ -3030,7 +3044,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 710.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.179445"
+									"text" : "0.25372"
 								}
 
 							}
@@ -3043,7 +3057,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 652.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.139287"
+									"text" : "0.246639"
 								}
 
 							}
@@ -3056,7 +3070,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 591.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.536761"
+									"text" : "0.094159"
 								}
 
 							}
@@ -3069,7 +3083,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 534.214294, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.009119"
+									"text" : "0.003984"
 								}
 
 							}
@@ -3095,7 +3109,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 461.607117, 484.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.081084"
+									"text" : "0.207553"
 								}
 
 							}
@@ -3185,7 +3199,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 467.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "/Bead/4 12.714951 3.732 0.086532"
+									"text" : "/Bead/8 10.783783 2.732 0.228229"
 								}
 
 							}
@@ -3858,7 +3872,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -4042,10 +4055,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 2235.0, 180.0, 30.0, 22.0 ],
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 2235.0, 180.0, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "t i b"
+					"text" : "t i i"
 				}
 
 			}
@@ -7944,6 +7957,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-125", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-63", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -8126,7 +8148,6 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 2255.5, 212.0, 2195.0, 212.0, 2195.0, 177.0, 2106.5, 177.0 ],
 					"source" : [ "obj-74", 1 ]
 				}
 
@@ -8455,19 +8476,19 @@
 			}
 , 			{
 				"name" : "toLinearSource.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayer.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.NNDistFilter~.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8479,13 +8500,13 @@
 			}
 , 			{
 				"name" : "spat.DistFilter~.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simplePlayerRot.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8497,13 +8518,13 @@
 			}
 , 			{
 				"name" : "simplePlayerRipples.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MTC_receiver.maxpat",
-				"bootpath" : "~/Documents/WaveAudio",
+				"bootpath" : "~/Documents/WaveAudio_dev",
 				"type" : "JSON",
 				"implicit" : 1
 			}
